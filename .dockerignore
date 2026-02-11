@@ -1,29 +1,62 @@
-# Dependências
+# ==========================================
+# DOCKERIGNORE - FinanceHub Shell
+# Files/folders to exclude from Docker build context
+# ==========================================
+
+# Dependencies
 node_modules
 npm-debug.log
+yarn-error.log
 
 # Build outputs
 .next
 out
-build
 dist
+build
 
-# Docker
-Dockerfile
-.dockerignore
+# Testing
+coverage
+.nyc_output
+
+# Environment files (build args should be used instead)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
 
 # Git
 .git
 .gitignore
 
-# Variáveis de ambiente (Segurança!)
-.env
-.env.local
-.env.production
-.env*.local
+# Docker files (avoid recursive copy)
+Dockerfile*
+docker-compose*
+.dockerignore
 
-# Outros
+# Documentation
 README.md
-.vscode
-.idea
-.DS_Store
+CHANGELOG.md
+docs/
+
+# CI/CD
+.github
+.gitlab-ci.yml
+.travis.yml
+
+# Misc
+*.md
+*.log
+.editorconfig
+.prettierrc
+.eslintcache
