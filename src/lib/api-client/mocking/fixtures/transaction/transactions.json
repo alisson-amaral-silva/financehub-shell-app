@@ -1,0 +1,110 @@
+[
+  {
+    "id": "txn-001",
+    "description": "Salary Deposit",
+    "amount": 5500,
+    "type": "income",
+    "category": "salary",
+    "date": "2024-02-01",
+    "status": "completed"
+  },
+  {
+    "id": "txn-002",
+    "description": "Freelance Project",
+    "amount": 1200,
+    "type": "income",
+    "category": "freelance",
+    "date": "2024-02-03",
+    "status": "completed"
+  },
+  {
+    "id": "txn-003",
+    "description": "Grocery Shopping",
+    "amount": 156.8,
+    "type": "expense",
+    "category": "food",
+    "date": "2024-02-04",
+    "status": "completed"
+  },
+  {
+    "id": "txn-004",
+    "description": "Netflix Subscription",
+    "amount": 15.99,
+    "type": "expense",
+    "category": "entertainment",
+    "date": "2024-02-05",
+    "status": "completed"
+  },
+  {
+    "id": "txn-005",
+    "description": "Electric Bill",
+    "amount": 89.5,
+    "type": "expense",
+    "category": "bills",
+    "date": "2024-02-06",
+    "status": "completed"
+  },
+  {
+    "id": "txn-006",
+    "description": "Uber Rides",
+    "amount": 45,
+    "type": "expense",
+    "category": "transport",
+    "date": "2024-02-07",
+    "status": "completed"
+  },
+  {
+    "id": "txn-007",
+    "description": "Investment Dividend",
+    "amount": 320,
+    "type": "income",
+    "category": "investment",
+    "date": "2024-02-08",
+    "status": "completed"
+  },
+  {
+    "id": "txn-008",
+    "description": "Amazon Shopping",
+    "amount": 234.99,
+    "type": "expense",
+    "category": "shopping",
+    "date": "2024-02-09",
+    "status": "completed"
+  },
+  {
+    "id": "txn-009",
+    "description": "Gym Membership",
+    "amount": 49.99,
+    "type": "expense",
+    "category": "health",
+    "date": "2024-02-10",
+    "status": "completed"
+  },
+  {
+    "id": "txn-010",
+    "description": "Online Course",
+    "amount": 199,
+    "type": "expense",
+    "category": "education",
+    "date": "2024-02-11",
+    "status": "completed"
+  },
+  {
+    "id": "txn-011",
+    "description": "Restaurant Dinner",
+    "amount": 78.5,
+    "type": "expense",
+    "category": "food",
+    "date": "2024-02-12",
+    "status": "completed"
+  },
+  {
+    "id": "txn-012",
+    "description": "Bonus Payment",
+    "amount": 1230,
+    "type": "income",
+    "category": "salary",
+    "date": "2024-02-13",
+    "status": "pending"
+  }
+]

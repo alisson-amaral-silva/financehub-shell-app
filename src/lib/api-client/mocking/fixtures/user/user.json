@@ -1,0 +1,7 @@
+{
+  "id": "user-001",
+  "name": "John Anderson",
+  "email": "john.anderson@email.com",
+  "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=John",
+  "createdAt": "2023-05-08T03:49:03Z"
+}

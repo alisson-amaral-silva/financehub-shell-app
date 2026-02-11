@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Food & Drinks",
+    "value": 450,
+    "color": "#6366F1",
+    "percentage": 28
+  },
+  {
+    "name": "Shopping",
+    "value": 320,
+    "color": "#22C55E",
+    "percentage": 20
+  },
+  {
+    "name": "Transport",
+    "value": 180,
+    "color": "#F59E0B",
+    "percentage": 11
+  },
+  {
+    "name": "Entertainment",
+    "value": 150,
+    "color": "#EF4444",
+    "percentage": 9
+  },
+  {
+    "name": "Bills",
+    "value": 380,
+    "color": "#8B5CF6",
+    "percentage": 24
+  },
+  {
+    "name": "Health",
+    "value": 120,
+    "color": "#EC4899",
+    "percentage": 8
+  }
+]

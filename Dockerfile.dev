@@ -1,0 +1,33 @@
+# =============================================
+# FinanceHub Shell App - Development Dockerfile
+# With hot reloading support
+# =============================================
+
+FROM node:20-alpine
+
+WORKDIR /app
+
+# Install dependencies for development
+RUN apk add --no-cache libc6-compat
+
+# Copy package files
+COPY package.json package-lock.json* ./
+
+# Install all dependencies (including devDependencies)
+RUN npm install
+
+# Copy source files
+COPY . .
+
+# Initialize MSW service worker
+RUN npx msw init public/ --save
+
+# Expose port
+EXPOSE 3000
+
+ENV PORT 3000
+ENV NODE_ENV development
+ENV NEXT_TELEMETRY_DISABLED 1
+
+# Start development server
+CMD ["npm", "run", "dev"]

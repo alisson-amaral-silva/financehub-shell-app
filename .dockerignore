@@ -1,0 +1,29 @@
+# Dependências
+node_modules
+npm-debug.log
+
+# Build outputs
+.next
+out
+build
+dist
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Git
+.git
+.gitignore
+
+# Variáveis de ambiente (Segurança!)
+.env
+.env.local
+.env.production
+.env*.local
+
+# Outros
+README.md
+.vscode
+.idea
+.DS_Store

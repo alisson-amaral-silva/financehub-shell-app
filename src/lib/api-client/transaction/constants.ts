@@ -1,0 +1,5 @@
+export const TRANSACTIONS_SEARCH_PARAM_TYPE = 'type';
+export const TRANSACTIONS_SEARCH_PARAM_PAGE = 'page';
+export const TRANSACTIONS_SEARCH_PARAM_PAGE_SIZE = 'pageSize';
+export const TRANSACTIONS_SEARCH_PARAM_SEARCH = 'search';
+export const TRANSACTIONS_SEARCH_PARAM_CATEGORY = 'category';

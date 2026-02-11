@@ -1,0 +1,10 @@
+{
+  "total": 24563.5,
+  "income": 8250.0,
+  "expenses": 3420.0,
+  "percentageChange": {
+    "total": 12.5,
+    "income": 8.2,
+    "expenses": -3.1
+  }
+}

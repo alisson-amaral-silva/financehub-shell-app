@@ -1,0 +1,62 @@
+[
+  {
+    "id": "bill-01",
+    "name": "Rent",
+    "amount": 1500.0,
+    "dueDate": "2024-02-28T03:49:03Z",
+    "category": "Housing",
+    "isPaid": false,
+    "isRecurring": true,
+    "icon": "home"
+  },
+  {
+    "id": "bill-02",
+    "name": "Electricity",
+    "amount": 120.0,
+    "dueDate": "2024-02-20T03:49:03Z",
+    "category": "Utilities",
+    "isPaid": false,
+    "isRecurring": true,
+    "icon": "zap"
+  },
+  {
+    "id": "bill-03",
+    "name": "Internet",
+    "amount": 79.99,
+    "dueDate": "2024-02-28T03:49:03Z",
+    "category": "Utilities",
+    "isPaid": false,
+    "isRecurring": true,
+    "icon": "hife"
+  },
+  {
+    "id": "bill-04",
+    "name": "Car Insurance",
+    "amount": 180.0,
+    "dueDate": "2024-02-15T03:49:03Z",
+    "category": "Insurance",
+    "isPaid": true,
+    "isRecurring": true,
+    "icon": "car"
+  },
+  {
+    "id": "bill-05",
+    "name": "Phone Plan",
+    "amount": 65.0,
+    "dueDate": "2024-02-22T03:49:03Z",
+    "category": "Utilities",
+    "isPaid": false,
+    "isRecurring": true,
+    "icon": "smartphone"
+  },
+  {
+    "id": "bill-06",
+    "name": "Gym Membership",
+    "amount": 49.99,
+    "dueDate": "2024-02-28T03:49:03Z",
+    "category": "Health",
+    "isPaid": false,
+    "isRecurring": true,
+    "icon": "dumbbell"
+  }
+]

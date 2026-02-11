@@ -1,0 +1,38 @@
+[
+  {
+    "id": "goal-001",
+    "title": "Emergency Fund",
+    "targetAmount": 10000,
+    "currentAmount": 7500,
+    "deadline": "2024-06-30",
+    "color": "#6366F1",
+    "icon": "shield"
+  },
+  {
+    "id": "goal-002",
+    "title": "Vacation Trip",
+    "targetAmount": 5000,
+    "currentAmount": 2800,
+    "deadline": "2024-08-15",
+    "color": "#22C55E",
+    "icon": "plane"
+  },
+  {
+    "id": "goal-003",
+    "title": "New Laptop",
+    "targetAmount": 2500,
+    "currentAmount": 1800,
+    "deadline": "2024-04-30",
+    "color": "#F59E0B",
+    "icon": "laptop"
+  },
+  {
+    "id": "goal-004",
+    "title": "Investment Portfolio",
+    "targetAmount": 20000,
+    "currentAmount": 12000,
+    "deadline": "2024-12-31",
+    "color": "#8B5CF6",
+    "icon": "trending-up"
+  }
+]
